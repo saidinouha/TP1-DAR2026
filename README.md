@@ -38,6 +38,39 @@ on ferme la socket a la fin.
 
 ## TP 1 ACTIVTE 2 : Service de calculatrice
 
+code serveur:
+![code serveur](screenshots/act2-server.png)
+code client:
+![code client avec nb>0](screenshots/act2-client.png)
+resultat avec nb  negatif 
+![nb négatif](screenshots/act2nbnegative.png)
+
+<p>resultat avec nb=0</p>
+
+![nb zéro](screenshots/act2nbzero.png)
+
+Le client envoie un nombre nb , le serveur calcule nb*5 et le
+renvoie. Pour x = 5 le résultat est 25, pour x = -8 il est -40 (le signe
+est conservé grâce à <code> DataOutputStream.writeInt </code> qui envoie les 4 octets de
+l'entier), et pour x = 0 le résultat est 0.
+
+### version 2 : boucle
+coté client 
+![client boucle](screenshots/act2clientboucle.png)
+
+coté serveur
+![seveur boucle](screenshots/act2seveurboucle.png)
+
+
+le client peut envoyer pleusieur entiers et receoi le resultat
+le 0 se comporte comme un signal d'arret puisque le serveur sort du la boucle. puis le serveur et le client fermant les sockets.
+
+
+
+## TP 1 ACTIVTE 3 : Amélioration sur le service de calculatrice
+
+
+
 
 
 
