@@ -36,7 +36,9 @@ contacte donc la même machine, mais en utilisant directement l'adresse.
 
 on ferme la socket a la fin.
 
-## TP 1 ACTIVTE 2
+## TP 1 ACTIVTE 2 : Service de calculatrice
+
+
 
 
 
