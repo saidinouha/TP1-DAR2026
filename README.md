@@ -42,9 +42,14 @@ code serveur:
 ![code serveur](screenshots/act2-server.png)
 code client:
 ![code client avec nb>0](screenshots/act2-client.png)
-resultat avec nb  negatif 
+<br>
+<br>
+<p>resultat avec nb  negatif</p>
+
 ![nb négatif](screenshots/act2nbnegative.png)
 
+<br>
+<br>
 <p>resultat avec nb=0</p>
 
 ![nb zéro](screenshots/act2nbzero.png)
