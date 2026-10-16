@@ -69,8 +69,9 @@ le 0 se comporte comme un signal d'arret puisque le serveur sort du la boucle. p
 
 ## TP 1 ACTIVTE 3 : Amélioration sur le service de calculatrice
 
+exercice 1
 
-
+code serveur :
 
 
 
